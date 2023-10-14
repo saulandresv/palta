@@ -1,0 +1,29 @@
+
+body {
+  background-image: url("https://i.pinimg.com/originals/7e/40/62/7e40626a32954718797e4bc8382c1ab7.gif");
+  background-repeat: repeat;
+  background-size: 300px 300px;
+}
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 20rem;
+  position: absolute;
+  z-index: -1;
+}
+.rotate {
+  animation: rotation 1s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
